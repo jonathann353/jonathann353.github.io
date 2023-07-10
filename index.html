@@ -216,30 +216,32 @@
           <img src="/resources/css/img/celular.gif" alt="imagem de uma mão segurando um celular preenchendo um fomulário">
         </div>     
         <div class="formulario"> 
-            <form action="#" method="post" data-aos="zoom-out" data-aos-duration="3000">                  
+            <form target="_blank" action="https://formsubmit.co/jonathan.nunes353@gmail.com" method="POST" data-aos="zoom-out" data-aos-duration="3000">                  
                 <span>
-                    <input type="text" class="input-card" placeholder="Nome" required>
+                    <input type="text" nome="nome" class="input-card" placeholder="Nome" required>
                     <label><ion-icon name="person-outline"></ion-icon> </label>
                 </span>
                 <span>
-                  <input type="tel" class="input-card" placeholder="telefone" required>
+                  <input type="tel" nome="telefone" class="input-card" placeholder="telefone" required>
                   <label><ion-icon name="call-outline"></ion-icon></label>
               </span>
                 <span>
-                    <input type="email" class="input-card" placeholder="E-mail" required>
+                    <input type="email" nome="e-mail" class="input-card" placeholder="E-mail" required>
                     <label> <ion-icon name="mail-outline"></ion-icon> </label>
                 </span>
                 <span>
-                    <input type="text" class="input-card" placeholder="Assunto" required>
+                    <input type="text" nome="assunto" class="input-card" placeholder="Assunto" value="Aula Experimental" required>
                     <label> <ion-icon name="information-outline"></ion-icon> </label>
                 </span>
                 <span>
-                    <textarea class="textarea-card" rows="3" placeholder="Mensagem" required></textarea>
+                    <textarea nome="mensagem" class="textarea-card" rows="3" placeholder="Mensagem" required></textarea>
                     <label><ion-icon name="chatbubble-ellipses-outline"></ion-icon> </label>
                 </span>
                 <div class="box-pulse">
                     <input type="submit" value="Enviar mensagem" class="btn-submit">
                 </div>
+                <input type="hidden" name="_autoresponse" value="Agradecemos o seu contato, entraremos em contato logo.">
+                <input type="hidden" name="_next" value="https://jonathann353.github.io/index.html">
             </form>
         </div>     
       </div>

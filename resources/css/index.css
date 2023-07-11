@@ -741,7 +741,7 @@ footer .container{
   flex-direction: column;
   align-items: center;
 }
-.col h4{
+.col h2{
   font-size: 18px;
   color: rgb(255, 208, 0);
   text-transform: capitalize;
@@ -749,7 +749,7 @@ footer .container{
   font-weight: 500;
   position: relative;
 }
-.col h4::before{
+.col h2::before{
   content: '';
   position: absolute;
   left:0;

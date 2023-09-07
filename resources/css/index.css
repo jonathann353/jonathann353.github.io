@@ -551,6 +551,10 @@ header {
     padding: 60px 5%;
     text-align: center;
 }
+
+.formulario ion-icon{
+  font-size: 32px;
+}
 .formulario span {
   position: relative;
   display: flex;

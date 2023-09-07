@@ -81,6 +81,9 @@ header {
   gap: 10px;
 }
 
+.nav-links ion-icon{
+  font-size: 32px;
+}
 .nav > .nav-links > a {
   display: inline-block;
   padding: 10px 10px 10px 10px;
@@ -799,7 +802,7 @@ footer .container{
   margin: 20px;
   padding: 20px;
 }
-ion-icon{
+.col .social-links ion-icon{
   font-size: 32px;
   margin-right: 10px;
   

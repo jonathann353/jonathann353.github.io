@@ -850,7 +850,7 @@ footer .container{
   align-content: center;
   text-transform: uppercase;
 }
-.card2 h1{
+.card2 form h1{
   color:rgb(255, 208, 0);
   margin: 20px;
   font-size: 76px;

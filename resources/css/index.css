@@ -823,3 +823,74 @@ footer .container{
     width: 100%;
 }
 }
+
+/* area restrita */
+.login{
+  background-image: linear-gradient(45deg, rgba(70, 70, 73, 0.753), rgba(129, 128, 126, 0.774)), url('/img/montanha.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.card2 form{
+  background: rgba(161, 159, 159, 0.61);
+  width: 600px;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  align-content: center;
+  text-transform: uppercase;
+}
+label{
+  margin-top: 10px;
+}
+input{
+  width: 60%;
+  height: 40px;
+  border: none;
+  margin-top: 5px;
+  text-align: center;
+}
+.btn{
+  background-color: rgb(255, 208, 0);
+  width: 60%;
+  height: 40px;
+  margin-top: 20px;
+}
+.checkbox{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+hr {
+  border: solid #000 1px;
+  width:60%;
+  text-align:left;
+  margin-left:0;
+} 
+ul{
+  margin-top: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}  
+a{
+  color: #000;
+
+}
+@media (max-width:1419px)   {
+  .card1{
+      display: none;
+  }
+}

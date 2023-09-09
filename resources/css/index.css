@@ -853,7 +853,7 @@ footer .container{
 form h1{
   color:rgb(255, 208, 0);
   margin: 20px;
-  font-size: 18px;
+  font-size: 32px;
   font-family: 'Bungee', sans-serif;
   text-transform: uppercase;
 }
@@ -894,4 +894,19 @@ ul{
 }  
 a{
   color: #000;
+}
+@media (max-width:740px){
+  .card2 form{
+    background: rgba(161, 159, 159, 0.61);
+    width: 350px;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+    text-transform: uppercase;
+  }
+
 }

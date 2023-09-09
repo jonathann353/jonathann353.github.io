@@ -826,7 +826,7 @@ footer .container{
 
 /* area restrita */
 .login{
-  background-image: linear-gradient(45deg, rgba(70, 70, 73, 0.753), rgba(129, 128, 126, 0.774)), url('/img/montanha.jpg');
+  background-image: linear-gradient(45deg, rgba(70, 70, 73, 0.753), rgba(129, 128, 126, 0.774)), url('/resource/resources/css/img/montanha.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

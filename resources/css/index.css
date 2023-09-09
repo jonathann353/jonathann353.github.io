@@ -850,10 +850,10 @@ footer .container{
   align-content: center;
   text-transform: uppercase;
 }
-.card2 form h1{
+form h1{
   color:rgb(255, 208, 0);
   margin: 20px;
-  font-size: 32px;
+  font-size: 18px;
   font-family: 'Bungee', sans-serif;
   text-transform: uppercase;
 }

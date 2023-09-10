@@ -852,31 +852,30 @@ footer .container{
 }
 form h1{
   color:rgb(255, 208, 0);
-  font-size: 32px;
+  font-size: 48px;
   font-family: 'Bungee', sans-serif;
   text-transform: uppercase;
 }
 label{
   margin-top: 10px;
+  font-weight: 600;
 }
 input{
-  width: 60%;
-  height: 40px;
-  border: none;
-  margin-top: 5px;
-  text-align: center;
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #0a0a0a;
+	background: #fffafa5e;
+	border-radius: 5px;
+	padding: .4em;
+	color: #161616;
 }
 .btn{
   background-color: rgb(255, 208, 0);
   width: 60%;
   height: 40px;
   margin-top: 20px;
-}
-.checkbox{
-  width: 20px;
-  height: 20px;
-  position: relative;
-  margin-top: 20px;
+  font-weight: 600;
 }
 hr {
   border: solid #000 1px;
@@ -893,12 +892,14 @@ ul{
 }  
 a{
   color: #000;
+  font-weight: 600;
 }
 @media (max-width:740px){
   .card2 form{
     background: rgba(161, 159, 159, 0.61);
-    width: 400px;
+    width: 90vw;
     height: 90vh;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -906,6 +907,33 @@ a{
     align-items: start;
     align-content: center;
     text-transform: uppercase;
+    border-radius: 5px;
   }
+  input{
+    width: 80vw;
+    height: 40px;
+    border: none;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .btn{
+    background-color: rgb(255, 208, 0);
+    width: 80vw;
+    height: 40px;
+    margin-top: 20px;
+  }
+  hr {
+    border: solid #000 1px;
+    width:80vw;
+    text-align:left;
+    margin-left:0;
+  } 
+  form ul{
+    margin-top: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  } 
 
 }
